@@ -14,9 +14,6 @@ const typeDefs = `
   type Mutation {
     postMessage(user: String!, text: String!): ID!
   }
-  type Subscription {
-    messages: [Message!]
-  }
 `;
 
 const resolvers = {
